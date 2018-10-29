@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		1738563E2186F24C0088A08E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738563D2186F24C0088A08E /* AppDelegate.swift */; };
-		173856402186F24C0088A08E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738563F2186F24C0088A08E /* FirstViewController.swift */; };
 		173856422186F24C0088A08E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173856412186F24C0088A08E /* SecondViewController.swift */; };
 		173856452186F24C0088A08E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173856432186F24C0088A08E /* Main.storyboard */; };
 		173856472186F24E0088A08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173856462186F24E0088A08E /* Assets.xcassets */; };
 		1738564A2186F24E0088A08E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173856482186F24E0088A08E /* LaunchScreen.storyboard */; };
+		173856592186F4970088A08E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173856582186F4970088A08E /* Constants.swift */; };
+		1738565B2186F6820088A08E /* TwitterFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738565A2186F6820088A08E /* TwitterFeed.swift */; };
+		1738565D2186F6C10088A08E /* TwitterFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738565C2186F6C10088A08E /* TwitterFeedService.swift */; };
+		1738565F21870ABE0088A08E /* TwitterFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738565E21870ABE0088A08E /* TwitterFeedCell.swift */; };
+		1738566121870E150088A08E /* TwitterFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738566021870E150088A08E /* TwitterFeedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1738563A2186F24C0088A08E /* MeTOO APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MeTOO APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1738563D2186F24C0088A08E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1738563F2186F24C0088A08E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		173856412186F24C0088A08E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		173856442186F24C0088A08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		173856462186F24E0088A08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		173856492186F24E0088A08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1738564B2186F24E0088A08E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173856582186F4970088A08E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1738565A2186F6820088A08E /* TwitterFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFeed.swift; sourceTree = "<group>"; };
+		1738565C2186F6C10088A08E /* TwitterFeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFeedService.swift; sourceTree = "<group>"; };
+		1738565E21870ABE0088A08E /* TwitterFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFeedCell.swift; sourceTree = "<group>"; };
+		1738566021870E150088A08E /* TwitterFeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterFeedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,67 @@
 		1738563C2186F24C0088A08E /* MeTOO APP */ = {
 			isa = PBXGroup;
 			children = (
-				1738563D2186F24C0088A08E /* AppDelegate.swift */,
-				1738563F2186F24C0088A08E /* FirstViewController.swift */,
-				173856412186F24C0088A08E /* SecondViewController.swift */,
-				173856432186F24C0088A08E /* Main.storyboard */,
-				173856462186F24E0088A08E /* Assets.xcassets */,
-				173856482186F24E0088A08E /* LaunchScreen.storyboard */,
+				173856562186F4760088A08E /* Utils */,
+				173856552186F3F10088A08E /* Services */,
+				173856542186F3E80088A08E /* Supporting Files */,
+				173856532186F3E20088A08E /* Model */,
+				173856522186F3DC0088A08E /* View */,
+				173856512186F3D40088A08E /* Controller */,
 				1738564B2186F24E0088A08E /* Info.plist */,
 			);
 			path = "MeTOO APP";
+			sourceTree = "<group>";
+		};
+		173856512186F3D40088A08E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1738566021870E150088A08E /* TwitterFeedVC.swift */,
+				173856412186F24C0088A08E /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		173856522186F3DC0088A08E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				173856432186F24C0088A08E /* Main.storyboard */,
+				1738565E21870ABE0088A08E /* TwitterFeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		173856532186F3E20088A08E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1738565A2186F6820088A08E /* TwitterFeed.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		173856542186F3E80088A08E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1738563D2186F24C0088A08E /* AppDelegate.swift */,
+				173856462186F24E0088A08E /* Assets.xcassets */,
+				173856482186F24E0088A08E /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		173856552186F3F10088A08E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1738565C2186F6C10088A08E /* TwitterFeedService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		173856562186F4760088A08E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				173856582186F4970088A08E /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +200,11 @@
 			files = (
 				173856422186F24C0088A08E /* SecondViewController.swift in Sources */,
 				1738563E2186F24C0088A08E /* AppDelegate.swift in Sources */,
-				173856402186F24C0088A08E /* FirstViewController.swift in Sources */,
+				1738565F21870ABE0088A08E /* TwitterFeedCell.swift in Sources */,
+				1738566121870E150088A08E /* TwitterFeedVC.swift in Sources */,
+				1738565D2186F6C10088A08E /* TwitterFeedService.swift in Sources */,
+				173856592186F4970088A08E /* Constants.swift in Sources */,
+				1738565B2186F6820088A08E /* TwitterFeed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
