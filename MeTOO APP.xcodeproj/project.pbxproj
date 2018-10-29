@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1738563E2186F24C0088A08E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738563D2186F24C0088A08E /* AppDelegate.swift */; };
-		173856422186F24C0088A08E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173856412186F24C0088A08E /* SecondViewController.swift */; };
+		173856422186F24C0088A08E /* HarrasmentLawsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173856412186F24C0088A08E /* HarrasmentLawsVC.swift */; };
 		173856452186F24C0088A08E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173856432186F24C0088A08E /* Main.storyboard */; };
 		173856472186F24E0088A08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173856462186F24E0088A08E /* Assets.xcassets */; };
 		1738564A2186F24E0088A08E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173856482186F24E0088A08E /* LaunchScreen.storyboard */; };
@@ -17,12 +17,16 @@
 		1738565D2186F6C10088A08E /* TwitterFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738565C2186F6C10088A08E /* TwitterFeedService.swift */; };
 		1738565F21870ABE0088A08E /* TwitterFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738565E21870ABE0088A08E /* TwitterFeedCell.swift */; };
 		1738566121870E150088A08E /* TwitterFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738566021870E150088A08E /* TwitterFeedVC.swift */; };
+		17385663218750CD0088A08E /* HarrasmentLaws.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17385662218750CD0088A08E /* HarrasmentLaws.swift */; };
+		173856652187536E0088A08E /* HarrasmentLawCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173856642187536E0088A08E /* HarrasmentLawCell.swift */; };
+		17385667218753FB0088A08E /* HarrasmentLawService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17385666218753FB0088A08E /* HarrasmentLawService.swift */; };
+		754BC3195B9EF0A1A778DEB0 /* Pods_MeTOO_APP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88250DB9639F951FEDB970A /* Pods_MeTOO_APP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1738563A2186F24C0088A08E /* MeTOO APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MeTOO APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1738563D2186F24C0088A08E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		173856412186F24C0088A08E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		173856412186F24C0088A08E /* HarrasmentLawsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarrasmentLawsVC.swift; sourceTree = "<group>"; };
 		173856442186F24C0088A08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		173856462186F24E0088A08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		173856492186F24E0088A08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +36,12 @@
 		1738565C2186F6C10088A08E /* TwitterFeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFeedService.swift; sourceTree = "<group>"; };
 		1738565E21870ABE0088A08E /* TwitterFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFeedCell.swift; sourceTree = "<group>"; };
 		1738566021870E150088A08E /* TwitterFeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterFeedVC.swift; sourceTree = "<group>"; };
+		17385662218750CD0088A08E /* HarrasmentLaws.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarrasmentLaws.swift; sourceTree = "<group>"; };
+		173856642187536E0088A08E /* HarrasmentLawCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarrasmentLawCell.swift; sourceTree = "<group>"; };
+		17385666218753FB0088A08E /* HarrasmentLawService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarrasmentLawService.swift; sourceTree = "<group>"; };
+		5E8F5F248F909ADE90329024 /* Pods-MeTOO APP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeTOO APP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeTOO APP/Pods-MeTOO APP.debug.xcconfig"; sourceTree = "<group>"; };
+		A88250DB9639F951FEDB970A /* Pods_MeTOO_APP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeTOO_APP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C6D1168FB59B435A3D7EB2 /* Pods-MeTOO APP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeTOO APP.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeTOO APP/Pods-MeTOO APP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754BC3195B9EF0A1A778DEB0 /* Pods_MeTOO_APP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +61,8 @@
 			children = (
 				1738563C2186F24C0088A08E /* MeTOO APP */,
 				1738563B2186F24C0088A08E /* Products */,
+				1BADC90B14FE6335F0E787B6 /* Pods */,
+				8F7E77D4AD734B983DFDE76F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				1738566021870E150088A08E /* TwitterFeedVC.swift */,
-				173856412186F24C0088A08E /* SecondViewController.swift */,
+				173856412186F24C0088A08E /* HarrasmentLawsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -89,6 +102,7 @@
 			children = (
 				173856432186F24C0088A08E /* Main.storyboard */,
 				1738565E21870ABE0088A08E /* TwitterFeedCell.swift */,
+				173856642187536E0088A08E /* HarrasmentLawCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -97,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				1738565A2186F6820088A08E /* TwitterFeed.swift */,
+				17385662218750CD0088A08E /* HarrasmentLaws.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				1738565C2186F6C10088A08E /* TwitterFeedService.swift */,
+				17385666218753FB0088A08E /* HarrasmentLawService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -127,6 +143,23 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		1BADC90B14FE6335F0E787B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E8F5F248F909ADE90329024 /* Pods-MeTOO APP.debug.xcconfig */,
+				C9C6D1168FB59B435A3D7EB2 /* Pods-MeTOO APP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F7E77D4AD734B983DFDE76F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A88250DB9639F951FEDB970A /* Pods_MeTOO_APP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1738564E2186F24E0088A08E /* Build configuration list for PBXNativeTarget "MeTOO APP" */;
 			buildPhases = (
+				3BB3CD0A87A5883A1EC30C5E /* [CP] Check Pods Manifest.lock */,
 				173856362186F24C0088A08E /* Sources */,
 				173856372186F24C0088A08E /* Frameworks */,
 				173856382186F24C0088A08E /* Resources */,
+				5373480001402821C84D14A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,16 +228,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BB3CD0A87A5883A1EC30C5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeTOO APP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5373480001402821C84D14A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MeTOO APP/Pods-MeTOO APP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeTOO APP/Pods-MeTOO APP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		173856362186F24C0088A08E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				173856422186F24C0088A08E /* SecondViewController.swift in Sources */,
+				173856422186F24C0088A08E /* HarrasmentLawsVC.swift in Sources */,
 				1738563E2186F24C0088A08E /* AppDelegate.swift in Sources */,
 				1738565F21870ABE0088A08E /* TwitterFeedCell.swift in Sources */,
+				17385667218753FB0088A08E /* HarrasmentLawService.swift in Sources */,
+				17385663218750CD0088A08E /* HarrasmentLaws.swift in Sources */,
 				1738566121870E150088A08E /* TwitterFeedVC.swift in Sources */,
 				1738565D2186F6C10088A08E /* TwitterFeedService.swift in Sources */,
+				173856652187536E0088A08E /* HarrasmentLawCell.swift in Sources */,
 				173856592186F4970088A08E /* Constants.swift in Sources */,
 				1738565B2186F6820088A08E /* TwitterFeed.swift in Sources */,
 			);
@@ -348,15 +425,13 @@
 		};
 		1738564F2186F24E0088A08E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E8F5F248F909ADE90329024 /* Pods-MeTOO APP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YCPFBKZL7W;
 				INFOPLIST_FILE = "MeTOO APP/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ajinkyasonar.MeTOO-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -366,15 +441,13 @@
 		};
 		173856502186F24E0088A08E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C6D1168FB59B435A3D7EB2 /* Pods-MeTOO APP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YCPFBKZL7W;
 				INFOPLIST_FILE = "MeTOO APP/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ajinkyasonar.MeTOO-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

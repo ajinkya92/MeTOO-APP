@@ -11,3 +11,5 @@ import Foundation
 let TWITTERFEEDGLOBALURL = "http://mapi.trycatchtech.com/v1/twitter/twitter_feeds?type=MeToo&page=%d"
 
 let TWITTERFEEDINDIAURL = "http://mapi.trycatchtech.com/v1/twitter/twitter_feeds?type=MeTooIndia&page=%d"
+
+let HARRASMENTLAWURL = "http://mapi.trycatchtech.com/v1/twitter/sexual_harassment"
